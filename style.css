@@ -1,0 +1,26 @@
+.container{
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 75%;
+}
+
+.heading{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.game{
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.game img{
+    width: 150px;
+}
+
+.game >img:hover{
+    box-shadow: 0px 10px 50px  blue;
+}
